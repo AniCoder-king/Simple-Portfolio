@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Finlandica:ital@1&family=Roboto&family=Roboto+Condensed&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Finlandica:ital,wght@1,700&family=Roboto&family=Roboto+Condensed&family=Rubik:wght@600&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    /* background-color:rgb(43, 43, 43); */
+    background-color: black;
+    /* background-color: rgb(173, 173, 173); */
+    /* width: 15vw; */
+    /* font-family: 'Finlandica', sans-serif; */
+    font-family: 'Rubik', sans-serif;
+    min-height: 100vh;
+    height: auto;
+    transition: transform .3s ease-in;
+    position: absolute;
+}
+
+.sidebar nav{
+    padding: 31px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    padding: 25px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    background-color:rgb(54, 255, 255);
+    /* background-color: rgb(193, 193, 193); */
+    /* background-color: aqua; */
+    width: 100%;
+    min-height: 100vh;
+    /* font-family: 'Finlandica', sans-serif; */
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    /* background-color: rgb(208, 206, 206); */
+    /* background-color: rgb(128, 251, 251); */
+    height: 50vh;
+    width: 80vw;
+    margin: 140px auto;
+    display: flex;
+    justify-content:space-around;
+    overflow: visible;
+}
+
+.devPic img{
+    height: 50vh;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.hello{
+    font-size: 37px;
+}
+
+.name{
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.about{
+    font-size: 25px;
+}
+
+.moreabout{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.buttons{
+    margin-top: 25px;
+}
+
+.buttons button{
+    font-weight: bold;
+    /* font-size: 14px; */
+    /* margin: 0 1px; */
+    padding: 8px 10px;
+    border-radius: 5px 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sm{
+    margin-top: 10px;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: black;
+}
+
+.contactForm{
+    padding: 0 60px;
+    padding-top: 75px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contactForm h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* text-align: center; */
+    padding: 20px 0;
+}
+
+/* .contactForm form div{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 23vw;
+} */
+
+.contactForm form div{
+    padding: 5px 0;
+}
+
+.contactForm form div input{
+    display: flex;
+    margin: 10px 0;
+    padding: 6px;
+    border-radius: 5px;
+    width: 49vw;
+    border-style: hidden;
+}
+
+#emailHelp{
+    font-size: 10px;
+    color: rgb(100, 1, 192);
+    padding: 0 10px;
+}
+
+#form-check{
+    display: inline-flex;
+}
+
+#form-check input{
+    width: 20px;
+    margin: 3px 5px;
+}
+
+.blogItem{
+    margin: 20px 70px;
+}
+
+.blogItem h2{
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    margin-bottom: 5px;
+}
+
+.blogItem p{
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+.blogContainer h1{
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    margin: 30px;
+    margin-left: 70px;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+}
+.skill{
+    margin-left: 10px;
+    width: 300px;
+    height: 10px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.hundred{
+    width: 300px;
+    height: 10px;
+    background-color: red;
+}
+
+.seventy-five{
+    width: 210px;
+    height: 10px;
+    background-color: blue;
+}
+
+.fifty{
+    width: 150px;
+    height: 10px;
+    background-color: yellow;
+}
+
+.f5{
+    width: 135px;
+    height: 10px;
+    background-color: rgb(1, 255, 1);
+}
+
+.six-5{
+    width: 195px;
+    height: 10px;
+    background-color:rgb(3, 184, 255);
+}
+
+.t5{
+    width: 75px;
+    background-color: darkblue;
+    height: 10px;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross{
+    margin-left: 90px;
+}
+
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+
+@media (max-width: 1230px){
+    /* .sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    } */
+    .devPic{
+        display: none;
+    }
+}
+
+.left{
+    margin-left: 230px;
+}
